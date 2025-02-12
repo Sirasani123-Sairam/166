@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test name="Test">
+  
+  <groups>
+  <run>
+  
+  <include name="sanity" />
+  <include name="smoke" />
+  
+  </run>
+  
+  
+  </groups>
+  
+
+  <classes>
+  <class name="com.grup.NewTest">
+  
+
+  
+  
+  
+  </class>
+  
+  
+  </classes>
+  </test>
+  
+  
+  
+  
+  <test name="Test1">
+  
+  <groups>
+  <run>
+  
+  <include name="sanity" />
+  <exclude name="Regression" />
+  
+  </run>
+  
+  
+  </groups>
+  
+
+  <classes>
+  <class name="com.grup.NewTest1">
+  
+
+  
+  
+  
+  </class>
+  
+  
+  </classes>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+{
+  "theme": "STANDARD",
+  "encoding": "UTF-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "ExtentReports",
+  "reportName": "sairamramya",
+  "timeStampFormat": "MMM",
+  "JAVASCRIPT": "document.getElementsByClassName('logo')[0].style.display='none';",
+  "CSS": ".badge-primary {background-color: #fd3259}"
+}
